@@ -199,7 +199,13 @@ export default class ContainerTerminal extends Component {
   render() {
     return (
       <kubernetes-container-terminal
-        style={{ width: '100vw', height: '100vh', display: 'block', background: '#000000' }}
+        style={{
+          width: '100%',
+          height: '100%',
+          display: 'block',
+          padding: '0 6px',
+          background: '#000000',
+        }}
         ref={this.containerRef}
       />
     )

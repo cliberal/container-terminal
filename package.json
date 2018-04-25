@@ -4,6 +4,15 @@
   "description": "Provides a terminal for a kubernetes container in a pod.",
   "author": "charlie",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cliberal/container-terminal.git"
+  },
+  "keywords": [
+    "terminal",
+    "kubernetes",
+    "docker"
+  ],
   "main": "lib/index.js",
   "files": [
     "lib"

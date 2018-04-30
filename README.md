@@ -1,6 +1,6 @@
 # container-terminal
 
-> This is the react transplant version of [kubernetes-container-terminal]().
+> This is the react transplant version of [kubernetes-container-terminal](https://github.com/kubernetes-ui/container-terminal).
 
 ## Usage
 
@@ -14,4 +14,8 @@ class App extends React.Component {
 }
 ```
 
-> makesure react version >16
+## Tips
+
+use [react-loadable](https://github.com/jamiebuilds/react-loadable) to split xterm.js.
+
+> makesure react version >=16
